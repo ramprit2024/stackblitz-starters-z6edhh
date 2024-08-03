@@ -1,8 +1,8 @@
 import { cn } from "@/lib/utils";
+import Providers from "@/providers/query";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Providers from "@/providers/query";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
